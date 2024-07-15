@@ -1,0 +1,27 @@
+{
+  "name": "ereminmdev/yii2-idiomorph",
+  "description": "Idiomorph assert for Yii framework.",
+  "keywords": [
+    "yii2",
+    "idiomorph",
+  ],
+  "homepage": "https://bitbucket.org/ereminmdev/yii2-idiomorph",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Eremin",
+      "email": "ereminmdev@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "npm-asset/idiomorph": "^0.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ereminmdev\\yii2\\idiomorph\\": ""
+    }
+  }
+}
